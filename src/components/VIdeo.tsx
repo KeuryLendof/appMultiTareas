@@ -38,7 +38,7 @@ const Video: React.FC = () => {
                     <IonText color="secondary">
                         <h1>Video de mi experiencia haciendo esta tarea</h1>
                     </IonText>
-                    <iframe width="380" height="315" src="https://www.youtube.com/embed/lWEO0ENoBIg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    <iframe width="380" height="315" src="https://www.youtube.com/embed/4AZL7VP5Bxw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
             </IonContent>
         </IonPage>
