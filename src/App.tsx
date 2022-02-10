@@ -3,6 +3,11 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import Page from './pages/Page';
+import Inicio from './components/Inicio';
+import Sumadora from './components/Sumadora';
+import Traductor from './components/Traductor';
+import Tabla from './components/Tabla';
+import Video from './components/VIdeo';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -33,7 +38,22 @@ const App: React.FC = () => {
           <Menu />
           <IonRouterOutlet id="main">
             <Route path="/" exact={true}>
-              <Redirect to="/page/Inbox" />
+              <Redirect to="/inicio" />
+            </Route>
+            <Route path="/inicio" exact={true}>
+              <Inicio />
+            </Route>
+            <Route path="/sumadora">
+              <Sumadora />
+            </Route>
+            <Route path="/traductor">
+              <Traductor />
+            </Route>
+            <Route path="/tabla">
+              <Tabla />
+            </Route>
+            <Route path="/video">
+              <Video />
             </Route>
             <Route path="/page/:name" exact={true}>
               <Page />

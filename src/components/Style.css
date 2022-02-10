@@ -1,0 +1,42 @@
+.perfil{
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.perfil img{
+    width: 350px;
+    height: 400px;
+}
+
+.sumadora{
+    text-align: center;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.traductor{
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tabla{
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.video{
+    text-align: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.botones{
+    width: 1000px;
+}
